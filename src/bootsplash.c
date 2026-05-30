@@ -48,7 +48,7 @@ enable_vga_console(void)
     call16_int10(&br);
 
     // Write to screen.
-    printf("SeaBIOS (version %s)\n", VERSION);
+    printf("OceanBIOS (version %s)\n", VERSION);
     display_uuid();
 }
 
